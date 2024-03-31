@@ -21,5 +21,5 @@
 5 - Acessar a página do Azure Vision, clicar em Image Analysis e depois em Add Caption to Images.
 ![Imagem de Teste](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Projeto2/Input/Adi%C3%A7%C3%A3oDeLegenda_Input.jpg)
 
-6 - Esse recurso permite detectar textos manuscristos ou digitados em uma imagem.
+6 - Esse recurso permite identificar o que tem em uma imagem e adicionar legendas nela.
 ![resulatado do Teste](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Projeto2/Output/Adi%C3%A7%C3%A3oDeLegenda_Output.png)
