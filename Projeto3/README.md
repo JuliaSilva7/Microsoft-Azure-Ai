@@ -1,22 +1,20 @@
-# Desafio - Trabalhando com Vision Studio na Prática no Azure Vision
-### Teste de detecção de rostos em imagens, detecção de texto em imagens e criação de legendas para foto.
+# Desafio - Trabalhando com Language Studio na Prática no Azure
+### Teste de detecção de sentimentos em um texto.
 
 
 
- 1 - Para iniciar esse projeto, 1º é necessário criar um grupo de recurso. Após isso, deve ser criado e configurado um modelo de Machine Learning.
- 
- ![Machine learning Criada](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Projeto1/Img/MachineLearningCriada.png)
- <sub>Machine learning Criada</sub>
+ 1 - Para iniciar esse projeto, 1º é necessário criar um grupo de recurso. Após isso, acessar a página do Language Studio.
 
- 2 - É necessário criar o ponto de extremidade.
-![Ponto de extremidade criado](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Projeto1/Img/PontoDeExtremidadeCriado.png)
-<sub>Ponto de extremidade criado</sub>
+ 2 - Clicar em Classify Text e depois em Analyse sentiment and mine opinions.
+![Página Inicial](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/paginainicial.png)
 
-3 - Gráfico que mostra o valor previsto e o valor verdadeiro do aluguel de bicicletas.
-![Gráfico](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Projeto1/Img/ValorPrevistoVSVerdadeiro.png)
+3 - Depois é necessário adicionar o texto que você deseja analisar.
+![Texto](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/input.png)
 
-4 - Gráfico que mostra os valores residuais do modelo de aluguel de bicicletas.
-![Gráfico](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Projeto1/Img/ValoresResiduais.png)
+4 - Esta saída indica as partes do texto que foram analisadas.
+![Output](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/output.png)
 
-5 - Resultado de uma previsão de aluguel de bicicletas.
-![Gráfico](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Projeto1/Img/Resultado_Teste_Modelo.png)
+5 - Esta saída mostra a % de sentimentos positivos, neutros ou negativos no texto analizado.
+![Output2](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/outputDocumento.png)
+
+Este recurso é muito interessante de ser utilizado em empresas que trabalham com serviços ao público, permitindo analizar se as reações do cliente ao seu produto ou serviço são positivas, negativas ou neutras.
