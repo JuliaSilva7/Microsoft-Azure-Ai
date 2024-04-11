@@ -1,20 +1,27 @@
-# Desafio - Trabalhando com Language Studio na Prática no Azure
-### Teste de detecção de sentimentos em um texto.
+# Desafio - Trabalhando com Ai Search na Prática no Azure
+### Indexação e Busca de dados.
+
+O Azure AI Search é um serviço de pesquisa baseado em nuvem oferecido pela Microsoft Azure. Ele permite que você adicione uma funcionalidade de pesquisa avançada em seus aplicativos e sites, permitindo que os usuários encontrem informações relevantes de maneira rápida e eficiente.
+
+ 1 - Para iniciar esse projeto, 1º é necessário criar 3 grupos de recursos, o 1º do Azure Ai Search, o 2º do Azure AI services e por último um Storage.
+
+ 2 - É necessário alterar o acesso do Storage, habilitando o acesso anônimo ao blob.
+![Acesso](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/AlteraeAcessoDoStorage.png)
+
+3 - Depois é necessário criar o contâiner.
 
 
+![Texto](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/CriacaoDeConteiner.png)
 
- 1 - Para iniciar esse projeto, 1º é necessário criar um grupo de recurso. Após isso, acessar a página do Language Studio.
+4 - Adicionar arquivos ao contâiner.
+![Output](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/AdicionandoArquivosAoConteiner.png)
 
- 2 - Clicar em Classify Text e depois em Analyse sentiment and mine opinions.
-![Página Inicial](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/paginainicial.png)
+5 - Importação e indexação dados para o Ai Search.
+![Output2](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/Servi%C3%A7oAiSearchImportarDados.png)
+![Output3](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/AiSearchCriado.png)
+![Output4](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/Sucesso.png)
 
-3 - Depois é necessário adicionar o texto que você deseja analisar.
-![Texto](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/input.png)
+6 - Realização de pesquisa no Ai Search.
+![Output2](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/PesquisaAiSearch.png)
 
-4 - Esta saída indica as partes do texto que foram analisadas.
-![Output](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/output.png)
-
-5 - Esta saída mostra a % de sentimentos positivos, neutros ou negativos no texto analizado.
-![Output2](https://github.com/JuliaSilva7/Microsoft-Azure-Ai/blob/main/Img/outputDocumento.png)
-
-Este recurso é muito interessante de ser utilizado em empresas que trabalham com serviços ao público, permitindo analizar se as reações do cliente ao seu produto ou serviço são positivas, negativas ou neutras.
+Este recurso é muito interessante de ser utilizado para realizar buscas e análises de dados.
